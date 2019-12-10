@@ -1,5 +1,5 @@
 # Complex-Wavelet-Inception-GAN-Audio-Synthesis
-This is a project improving the quality of unsupervised audio synthesis. It is a github project of a unpublished manuscript.
+This is a project improving the quality of unsupervised audio synthesis, a github project of an unpublished manuscript.
 ## Introduction
 The adversarial audio synthesis started from the work of Chris Donahua et al.(https://github.com/chrisdonahue/wavegan), which aimed at the unsupervised audio synthesis. Following studies have used various strategies to improve the fidelity of generated audio, such as Phase Gradient Heap Integration introduced by Andr´es Maraﬁoti et al.(https://tifgan.github.io/#S-E), IF-Phase learning proposed by Jesse Engel et al.(https://github.com/tensorflow/magenta/tree/master/magenta/models/gansynth), inverse transform of Melspectrogram to raw wave audio (https://github.com/descriptinc/melgan-neurips), etc. Using different approaches, we explored to improve the fidelity of generated audio, including complex-valued convolution, wavelet transform, and inception generator.
 ## 1. Complex-valued convolution for complex spectrogram
