@@ -12,7 +12,7 @@ IF-Phase learning proposed by Jesse Engel et al.(github.com/tensorflow/magenta/t
 inverse transform of Melspectrogram to raw wave audio (https://github.com/descriptinc/melgan-neurips), etc.   
   
 Their studies contributed a lot to improve the fidelity of audio, but were only focused on the learning of spectrogram.  
-We used different original approaches including complex-valued convolution, wavelet transform, and inception generator to improve.
+We used different original approaches including complex-valued convolution, wavelet transform, and inception generator to improve the direct modeling of fine structure of waveform.
 ## Solution1. Complex-valued convolution for complex spectrogram
 The learning representation of complex spectrogram can avoid scattering the information of phase. The complex spectrogram, however, can hardly be processed by real-valued neural network. Introducing the architecture of DEEP COMPLEX NETWORKS (Chiheb Trabelsi et al.), we learned complex spectrogram directly.
 ## Solution2. Wavelet transform to replace short time Fourier Transform
