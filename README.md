@@ -22,4 +22,4 @@ Inspired by wavelet transform and inception network, we designed a generator arc
 ## What is next?
 We are working in progress to experiment and aggregate the findings. The variable-length kernel sizes have boosted performance by a considerable margin. Further experiments and detailed mathematical explanation is required for a bigger contribution to go published.
 ## Author Information
-Yingtao Luo, Kun He, Huazhong University of Science and Technology
+Yingtao Luo, Siqi Sun, Kun He, Huazhong University of Science and Technology
