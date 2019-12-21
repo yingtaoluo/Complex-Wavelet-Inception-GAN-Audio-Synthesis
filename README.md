@@ -15,7 +15,6 @@ inverse transform of Melspectrogram to raw wave audio (https://github.com/descri
   
 Their studies contributed a lot to improve the fidelity of audio, but were only focused on the learning of spectrogram.  
 We used different original approaches to improve the direct modeling of fine structure of waveform.
-We provided some ideas that we have thought before we came across the current most effective idea.
 ## Idea1. Complex-valued convolution for complex spectrogram
 The learning representation of complex spectrogram can avoid scattering the information of phase. The complex spectrogram, however, can hardly be processed by real-valued neural network. Introducing the architecture of DEEP COMPLEX NETWORKS (Chiheb Trabelsi et al.), we learned complex spectrogram directly.
 ## idea2. Wavelet transform to replace short time Fourier Transform
