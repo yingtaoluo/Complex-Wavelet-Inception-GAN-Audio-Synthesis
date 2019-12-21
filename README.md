@@ -1,5 +1,5 @@
 # Complex-Wavelet-Inception-GAN-Audio-Synthesis
-This is a github project of an unpublished manuscript improving the learning representation of waveform signal such as audio and pulses.
+This is a github project of an unpublished manuscript improving the learning representation of waveform signal.
 ## Why is waveform data so intractable?
 The waveform data can hardly be modelled by convolutional neural network or fully connected layers. The reason is that, firstly, waveform data such as optical pulses or audio signal is a complex mixture of various waves; secondly, unlike image, audio oscillates up and down, which reflects not only amplitude but also phase. It is impossible to extract audio features effectively by convolutional kernels. In computer vision, adjacent pixels do not oscillate back and forth fiercely like in audio synthesis, but change smoothly.  
   
@@ -22,8 +22,8 @@ The short time Fourier Transform is not flexible enough to filter audio features
 ## Idea3. Inception generator to capture features at different frequency scales
 Inspired by wavelet transform and inception network, we designed a generator architecture that provides convolution filters of flexible sizes to capture audio features at different frequency scales. Audio signal is a mixture of various foundamental waves and harmonic waves. Different foundamental waves are at different frequency ranges, and their harmonic waves are at their multiple frequencies. All these together are too complicated and twisted for a single-sized convolution to process. Therefore, we proposed to use multi-sized filters to generate waveform audio signal at first layer, just like an inversed version inception network. This modification can boost the quality of generated audio drastically, following the direction of WaveGAN, without generating the intermediate spectrogram.
 ## Idea4. Using adaptive complex freqency domain kernels instead of time domain
-Although audio signal in time domain is twisted, the complex freqency domain reflects the signal's core features. If we can seperate signals at different frequency ranges by adaptive freqency domain convolutional kernels, the audio will no longer be twisted.
+Although audio signal in time domain is twisted, the complex freqency domain reflects the signal's core features. If we can seperate signals at different frequency ranges by adaptive freqency domain kernels, the audio will no longer be twisted.
 ## What is next?
-We are working in progress to experiment and aggregate the findings to impress the academia with a significantly valuable contribution. Although idea3 and idea4 have all boosted performance by a considerable margin experimentally, further experiments and mathematical explanation in the article are still required. 
+We are working in progress to experiment and aggregate the findings to impress the academia with a significantly valuable contribution. Although idea 3 and 4 have boosted performance by a considerable margin experimentally, further experiments and mathematical explanation in the article are still required. 
 ## Author Information
 Yingtao Luo, Siqi Sun, Kun He, Huazhong University of Science and Technology
