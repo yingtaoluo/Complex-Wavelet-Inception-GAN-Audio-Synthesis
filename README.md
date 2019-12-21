@@ -1,5 +1,6 @@
 # Complex-Wavelet-Inception-GAN-Audio-Synthesis
 This is a github project of an unpublished manuscript improving the learning representation of waveform signal.
+We are looking forwawrd to present a significant work to the machine learning community.
 ## Why is waveform data so intractable?
 The waveform data can hardly be modelled by convolutional neural network or fully connected layers. The reason is that, firstly, waveform data such as optical pulses or audio signal is a complex mixture of various waves; secondly, unlike image, audio oscillates up and down, which reflects not only amplitude but also phase. It is impossible to extract audio features effectively by convolutional kernels. In computer vision, adjacent pixels do not oscillate back and forth fiercely like in audio synthesis, but change smoothly.  
   
