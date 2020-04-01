@@ -7,7 +7,7 @@ The waveform data can hardly be modelled by 1D convolutional layers or fully con
 Because the direct modeling of waveform data is tough, many studies choose to model the intermediate spectrogram, a two-dimensional image-like product of short time Fourier transform. However, spectrogram is still different from images, because the horizontal axis means time and the vertical axis means frequency. A minor translation could cause little difference in vision as the object does not change, but it makes huge difference in hearing. Also, as the human hearing is very sensitive, even tiny little noise can cause very uncomfortable experience to ears. The current unsupervised audio generation is limited by effective reconstruction of fine structure of waveform data. An advanced modeling approach is needed for computer hearing and optical spectrum analysis.
 ## Prospective applications
 If waveform data can be modelled more efficiently and/or in higher resolution, tough problems like high-fidelity audio synthesis can be solved. This can be a breakthrough and can generate wide applications in physics, music composition, text2audio, and etc.
-## Previous works have not proposed effective learning of waveforms.
+## Previous works focuse on the learning of STFT-spectrogram
 The adversarial audio synthesis first started from the work of Chris Donahua et al.(https://github.com/chrisdonahue/wavegan).  
 Following studies used various strategies to further improve the fidelity of generated audio, such as Phase Gradient Heap Integration introduced by Andr´es Maraﬁoti et al.(https://tifgan.github.io/#S-E),  
 IF-Phase learning proposed by Jesse Engel et al.(github.com/tensorflow/magenta/tree/master/magenta/models/gansynth),  
