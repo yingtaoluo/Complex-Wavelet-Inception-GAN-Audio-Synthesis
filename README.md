@@ -17,5 +17,5 @@ In practice, we adopted the mel-scaled synchrosqueezed wavelet transform (MelWSS
 ![image](https://github.com/yingtaoluo/Complex-Wavelet-Inception-GAN-Audio-Synthesis/blob/master/stft.vs.wsst.png)  
 ## How does this mel-scaled scalogram look like?  
 The proposed Mel-scaled scalogram can be viewed as a higher time-resolution time-frequency image. For example, while STFT transforms a (16000) shaped audio into (128x128) spectrogram, our method transforms it into (128x16000) scalogram, without time-domain "downscale" error. In CV, higher-resolution image synthesis improves the authenticity and quality of generated image. In machine hearing, we can also foresee that such an improvement can bring about a more perfect hearing experience.
-## Author Affiliation Information (Temporarily)
-Yingtao Luo, Siqi Sun, Kun He, et al., Huazhong University of Science and Technology, et al.
+## Author Affiliation Information
+Yingtao Luo, Siqi Sun.
