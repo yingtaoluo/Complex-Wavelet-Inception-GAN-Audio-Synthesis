@@ -1,6 +1,9 @@
 # Complex-Wavelet-Inception-GAN-Audio-Synthesis
 This is a github project improving the learning representation of waveform signal such as audio.  
 Our discussion focuses on the High Fidelity (HiFi) Audio Synthesis, which can be applied in various applications such as TTS and music generation. The previous works including Tacotron2, GANSynth, Wavenet have demonstrated high quality simulations of sound sources, which are nearly undistinguishable. However, in the field of HiFi music and/or HiFi speech synthesis, we are still interested in higher-resolution audio representation to push the modeling of fine-grained waveform signals even further. 
+
+## Click star if you find helpful :) Thank you.
+
 ## Why is waveform data so intractable in general?
 Through previous reports, we already know that waveform data can hardly be modelled by 1D convolutional layers or perceptron. The spectral properties of sounds are non-local, as waveform audio is a complex mixture of various fundamental waves and their harmonics. Unlike image, audio oscillates up and down, which reflects not only amplitude but also phase.
 ## Previous works are limited by STFT-spectrogram
